@@ -132,8 +132,8 @@ class DoublyLinkedList:
             return None
         max_value = self.head.value
         current_node = self.head
-        while current_node.next:
-            current_node = current_node.next
+        while current_node:
             if current_node.value > max_value:
                 max_value = current_node.value
+            current_node = current_node.next
         return max_value
