@@ -71,7 +71,7 @@ class LRUCache:
                 removed_key = self.storage_list.tail.value[0]
                 # Now delete the tail, as well as the relevant key
                 self.storage_list.remove_from_tail()
-                self.storage_dict.pop(removed_key)
+                del self.storage_dict[removed_key]
             else:
                 # Otherwise, just add one to the length
                 self.length += 1
