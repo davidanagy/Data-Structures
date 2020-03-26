@@ -2,6 +2,8 @@ class Heap:
     def __init__(self):
         self.storage = []
 
+    # This website was helpful to understand how to do insert and delete:
+    # https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm
     def insert(self, value):
         # Append value
         self.storage.append(value)
