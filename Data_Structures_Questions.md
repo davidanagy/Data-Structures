@@ -18,21 +18,37 @@ Answer the following questions for each of the data structures you implemented a
 
 1. What is the runtime complexity of `insert`? 
 
+**Answer:** Worst case is O(n); average case is O(log n).
+
 2. What is the runtime complexity of `contains`?
 
-3. What is the runtime complexity of `get_max`? 
+**Answer:** Worse case is O(n); average case is O(log n).
+
+3. What is the runtime complexity of `get_max`?
+
+**Answer:** Worst case is O(n); average case is O(log n).
 
 ## Heap
 
 1. What is the runtime complexity of `_bubble_up`?
 
+**Answer:** O(1)
+
 2. What is the runtime complexity of `_sift_down`?
+
+**Answer:** O(1)
 
 3. What is the runtime complexity of `insert`?
 
+**Answer:** O(log n)
+
 4. What is the runtime complexity of `delete`?
 
+**Answer:** O(log n)
+
 5. What is the runtime complexity of `get_max`?
+
+**Answer:** O(1)
 
 ## Doubly Linked List
 
